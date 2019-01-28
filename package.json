@@ -12,8 +12,10 @@
     "url": "git://github.com/thecraftedgem/repository.git"
   },
   "scripts": {
-    "deploy": "webpack -p",
-    "watch": "webpack --watch-stdin --progress --color"
+        "heroku-prebuild": "npm install --dev",
+        "build": "webpack --config webpack.config.js",
+        "watch": "webpack --watch-stdin --progress --color",
+        "deploy": "npm run build, webpack-cli -p"
   },
   "author": "",
   "license": "ISC",
