@@ -16,7 +16,8 @@
     "build": "webpack --config webpack.config.js",
     "start": "node webpack.config.js",
     "heroku-prebuild": "npm install --dev",
-    "watch": "webpack --watch-stdin --progress --color"
+    "watch": "webpack --watch-stdin --progress --color",
+    "deploy": "webpack"
   },
   "author": "",
   "license": "ISC",
