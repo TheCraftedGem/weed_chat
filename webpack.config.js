@@ -4,6 +4,6 @@ module.exports = {
     filename: "app.js",
   },
    resolve: {
-     extensions: ['.js', '.jsx', 'css']
+     extensions: ['.js', '.jsx', 'css', 'ex', '.json', '.exs', 'erb', '.html', '.map']
    }
 };
