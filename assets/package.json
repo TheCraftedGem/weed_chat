@@ -12,6 +12,7 @@
     "deploy": "webpack -p"
   },
   "devDependencies": {
-    "webpack": "^4.29.0"
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1"
   }
 }

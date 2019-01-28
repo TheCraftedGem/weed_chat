@@ -13,10 +13,17 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node webpack.config.js",
     "heroku-prebuild": "npm install --dev",
     "watch": "webpack --watch-stdin --progress --color",
     "deploy": "webpack -p"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1"
+  }
 }
