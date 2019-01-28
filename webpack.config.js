@@ -4,8 +4,8 @@ module.exports = {
   output: {
     path: __dirname +  "/dist",
     filename: "[name].bundle.js",
-    resolve: {
-      extensions: ['.js', '.jsx']
-    }
-  }
+  },
+   resolve: {
+     extensions: ['.js', '.jsx']
+   }
 };
