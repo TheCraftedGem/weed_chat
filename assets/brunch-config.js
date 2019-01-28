@@ -57,6 +57,6 @@ exports.config = {
   },
 
   npm: {
-    enabled: false
+    enabled: true
   }
 };
