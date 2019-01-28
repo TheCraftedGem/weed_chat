@@ -1,5 +1,5 @@
 module.exports = {
-  entry: ["./priv/static/js/app.js"],
+  entry: ["./priv/static/js/app"],
 
   output: {
     path: __dirname +  "/dist",
