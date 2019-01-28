@@ -13,8 +13,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "watch": "webpack --watch-stdin --progress --color",
-     "deploy": "webpack -p"
+    "watch": "webpack --watch-stdin --progress --color",
+    "deploy": "webpack -p"
   },
   "author": "",
   "license": "ISC"
