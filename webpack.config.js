@@ -3,7 +3,7 @@ module.exports = {
 
   output: {
     path: __dirname +  "/dist",
-    filename: "app.js",
+    filename: "app.bundle.js",
   },
    resolve: {
      extensions: ['.js', '.jsx']
