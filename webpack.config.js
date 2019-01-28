@@ -1,7 +1,11 @@
-module.exports = {
-  entry: "./web/static/js/app.js",
+
+module.exports  = {
+  entry: "./priv/static/js/app.js",
   output: {
-    path: "./priv/static/js",
+    path: __dirname + "/dist",
     filename: "app.js"
+  },
+  resolve: {
+    extensions: ['.js', '.json', '.css']
   }
 };
