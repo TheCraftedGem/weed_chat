@@ -12,7 +12,7 @@ config :weed_chat,
 # Configures the endpoint
 config :weed_chat, WeedChatWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "qs52YOtRLFh2UEGem8c3a+ubwOR/CP1TB9PpT503tCoObcUS0iCnOxgqRM1VyD9q",
+  SECRET_KEY_BASE: "qs52YOtRLFh2UEGem8c3a+ubwOR/CP1TB9PpT503tCoObcUS0iCnOxgqRM1VyD9q",
   render_errors: [view: WeedChatWeb.ErrorView, accepts: ~w(html json)],
   pubsub: [name: WeedChat.PubSub,
            adapter: Phoenix.PubSub.PG2]
