@@ -2,7 +2,7 @@
   "name": "weed_chat",
   "version": "1.0.0",
   "description": "To start your Phoenix server:",
-  "main": "index.js",
+  "main": "app.js",
   "directories": {
     "lib": "lib",
     "test": "test"
@@ -28,5 +28,10 @@
   },
   "dependencies": {
     "lodash": "^4.17.11"
+  },
+  "engines": {
+    "node": "^6.5.0",
+    "npm": "^6.5.0"
   }
+
 }
