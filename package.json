@@ -13,6 +13,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
     "start": "node webpack.config.js",
     "heroku-prebuild": "npm install --dev",
     "watch": "webpack --watch-stdin --progress --color",
