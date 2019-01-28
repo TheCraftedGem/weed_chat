@@ -3,6 +3,6 @@ module.exports = {
 
   output: {
     path: __dirname +  "/dist",
-    filename: "app.js"
+    filename: "[name].app.js"
   }
 };
