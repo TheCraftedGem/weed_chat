@@ -1801,7 +1801,7 @@ exports.default = socket;
 require.alias("phoenix_html/priv/static/phoenix_html.js", "phoenix_html");require.register("___globals___", function(exports, require, module) {
   
 });})();
-// require('___globals___');
+require('___globals___');
 
-// require('js/app.js');
+require('js/app.js');
 //# sourceMappingURL=app.js.map
